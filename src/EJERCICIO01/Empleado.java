@@ -22,6 +22,12 @@ public class Empleado extends Persona
 		this.puesto = puesto;
 	}
 	
+	// Metodo estatico
+	
+	public static int devuelveProximoLegajo() {
+		return contadorLegajos;
+	}
+	
 	//Getters y Setters
 	
 	public int getLegajo() {
